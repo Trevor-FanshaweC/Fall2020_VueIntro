@@ -8,7 +8,6 @@
             anotherMessage: "more text, so simple! much winning",
             removeAformat: true,
             showBioData: false,
-            currentProfData: {},
 
             professors: [
                 { name: "Justin", role: "coordinator", nickname: "nitsuJ"},
@@ -47,7 +46,6 @@
 
                 // toggle the property between true and false using a ternary statement
                 this.showBioData = this.showBioData ? false : true
-                this.currentProfData = target;
             }
         }
     }).$mount("#app"); // also connects Vue to your wrapper in HTML
